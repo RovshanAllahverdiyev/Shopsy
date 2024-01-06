@@ -42,7 +42,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex justify-center items-center relative overflow-hidden min-h-[550px] sm:min-h-[650px] bg-gray-100 dark:bg-gray-950 dark:text-white duration-200 relative">
+    <div className="flex justify-center items-center overflow-hidden min-h-[550px] sm:min-h-[650px] bg-gray-100 dark:bg-gray-950 dark:text-white duration-200 relative">
       {/* background pattern */}
       <div className="h-[700px] w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z[8]"></div>
 
