@@ -49,7 +49,7 @@ const TopProducts = () => {
                     </div>
 
                     {/* detail section */}
-                    <div className='p-4 text-center'>
+                    <div className='p-4 text-center '>
 
                         {/* start rating */}
                         <div className='w-full flex items-center justify-center gap-1 '>
@@ -61,7 +61,7 @@ const TopProducts = () => {
                         </div>
 
                         <h1 className='text-xl font-bold'>{data.title}</h1>
-                        <p className='text-gray-500 group-hover:text-white duration-300 text-sm line-clamp-2 group-hover:line-clamp-none '>{data.description}</p>
+                        <p className=' text-gray-500 group-hover:text-white duration-300 text-sm line-clamp-2 group-hover:line-clamp-none'>{data.description}</p>
 
                         <button className='bg-primary text-white py-1 px-4 rounded-full mt-4 hover:scale-105 duration-300 group-hover:bg-white group-hover:text-primary'>Order Now</button>
                     </div>
