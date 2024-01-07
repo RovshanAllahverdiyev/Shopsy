@@ -6,7 +6,7 @@ import { GiFoodTruck } from "react-icons/gi";
 
 const Banner = () => {
   return (
-    <div className="py-12 sm:py-0 mt-32 min-h-[550px] flex justify-center items-center">
+    <section className="py-12 sm:py-0 mt-32 min-h-[550px] flex justify-center items-center" id="banner">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
           {/* image section */}
@@ -61,7 +61,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

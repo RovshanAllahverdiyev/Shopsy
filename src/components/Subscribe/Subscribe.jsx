@@ -13,7 +13,7 @@ const BannerImg = {
 
 const Subscribe = () => {
   return (
-    <div data-aos='zoom-in' style={BannerImg} className='container mb-20 bg-gray-100 dark:bg-gray-800 text-white'>
+    <section data-aos='zoom-in' style={BannerImg} className='container mb-20 bg-gray-100 dark:bg-gray-800 text-white' id='contact'>
 
         <div className=' backdrop-blur-sm py-10'>
 
@@ -25,7 +25,7 @@ const Subscribe = () => {
                 <input data-aos='fade-up' type="text" placeholder='Enter your email' className='w-full p-3 rounded-full outline-none  focus:outline-purple-400 text-black' />
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

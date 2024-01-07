@@ -19,15 +19,15 @@ const FooterLinks = [
       },
       {
         title: "About",
-        link: "/#about",
+        link: "#banner",
       },
       {
         title: "Contact",
-        link: "/#contact",
+        link: "#contact",
       },
       {
         title: "Blog",
-        link: "/#blog",
+        link: "#products",
       },
 ]
 
@@ -42,10 +42,12 @@ const Footer = () => {
 
                 {/* company details */}
                 <div className='py-8 px-4'>
+                       <a href="#home">
                     <h1 className='sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3'>
                         <img src={footerLogo} alt="" className='max-w-[50px]' />
                         Shopsy
                     </h1>
+                        </a> 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptate harum iure voluptatem?</p>
                 </div>
 
