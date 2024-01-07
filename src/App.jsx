@@ -6,17 +6,18 @@ import Products from './components/Products/Products'
 import Banner from './components/Banner/Banner'
 import TopProducts from './components/TopProducts/TopProducts'
 import Subscribe from './components/Subscribe/Subscribe'
+import Testimonials from './components/Testimonials/Testimonials'
+import Footer from './components/Footer/Footer'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import Testimonials from './components/Testimonials/Testimonials'
 
 
 const App = () => {
 
 useEffect(() => {
   AOS.init({
-    offset: 100,
+    offset: 100, 
     duration: 800,
     easing: 'ease-in-sine',
     delay: 100,
@@ -34,6 +35,7 @@ useEffect(() => {
       <Banner />
       <Subscribe />
       <Testimonials />
+      <Footer />
     </div>
   )
 }
