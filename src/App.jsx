@@ -6,6 +6,7 @@ import Products from './components/Products/Products'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import TopProducts from './components/TopProducts/TopProducts'
 
 
 const App = () => {
@@ -26,6 +27,7 @@ useEffect(() => {
       <Navbar />
       <Hero />
       <Products />
+      <TopProducts />
     </div>
   )
 }
