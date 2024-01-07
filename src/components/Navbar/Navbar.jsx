@@ -10,12 +10,12 @@ const Menu = [
     {
       id: 1,
       name: "Home",
-      link: "/#",
+      link: "/#home",
     },
     {
       id: 2,
       name: "Top Rated",
-      link: "/#services",
+      link: "/#products",
     },
     {
       id: 3,

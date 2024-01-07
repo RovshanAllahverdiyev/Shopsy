@@ -42,7 +42,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex justify-center items-center overflow-hidden min-h-[550px] sm:min-h-[650px] bg-gray-100 dark:bg-gray-950 dark:text-white duration-200 relative">
+    <section  className="flex justify-center items-center overflow-hidden min-h-[550px] sm:min-h-[650px] bg-gray-100 dark:bg-gray-950 dark:text-white duration-200 relative" id="home">
       {/* background pattern */}
       <div className="h-[700px] w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z[8]"></div>
 
@@ -101,7 +101,7 @@ const Hero = () => {
           ))}
         </Slider>
       </div>
-    </div>
+    </section>
   );
 };
 

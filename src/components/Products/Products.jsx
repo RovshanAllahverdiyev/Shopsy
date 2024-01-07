@@ -49,7 +49,7 @@ const ProductsData = [
 
 const Products = () => {
   return (
-    <div className="mt-14 mb-12">
+    <section className="mt-14 mb-12" id="products">
       <div className="container">
         {/* Header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
@@ -100,7 +100,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

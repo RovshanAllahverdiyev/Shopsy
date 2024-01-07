@@ -5,9 +5,11 @@ import Hero from './components/Hero/Hero'
 import Products from './components/Products/Products'
 import Banner from './components/Banner/Banner'
 import TopProducts from './components/TopProducts/TopProducts'
+import Subscribe from './components/Subscribe/Subscribe'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Testimonials from './components/Testimonials/Testimonials'
 
 
 const App = () => {
@@ -30,6 +32,8 @@ useEffect(() => {
       <Products />
       <TopProducts />
       <Banner />
+      <Subscribe />
+      <Testimonials />
     </div>
   )
 }
