@@ -36,7 +36,7 @@ const Footer = () => {
   return (
     <div style={BannerImage} className='text-white'>
 
-        <div className='container'>
+        <div data-aos='zoom-in' className='container'>
 
             <div className='grid md:grid-cols-3 pb-44 pt-5'>
 
